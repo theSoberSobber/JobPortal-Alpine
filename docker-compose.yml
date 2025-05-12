@@ -1,8 +1,6 @@
-version: '3.8'
-
 services:
   mongo:
-    image: mongo
+    image: mvertes/alpine-mongo
     container_name: job-portal-mongo
     volumes:
       - mongo-data:/data/db

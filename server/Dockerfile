@@ -1,4 +1,4 @@
-FROM node:18.18.0
+FROM node:18.18.0-alpine
 RUN npm install -g nodemon
 WORKDIR /app
 COPY . .
